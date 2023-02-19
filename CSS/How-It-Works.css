@@ -1,5 +1,81 @@
+.double-tap-img{
+    width: 150px;
+    height: 40px;
+}
+.btn-outline-primary {
+    color:#0314fe ;
+    border-color: #0314FE ;
+}
+.btn-primary {
+    background-color:#0314fe;
+}
+.navbar-custom{
+ margin-left: 10%;
+ margin-right: 1.5%;
+ width: 60%;
+}
+.navbar-nav>a{
+    margin: 2%;
+    white-space: nowrap;
+}
+.nav-button{
+    margin: 1%;
+    height: 40px;
+    width: 10%;
+}
+.Dots{
+    color:#0314fe;
+    margin:5px;
+    font-size: 18px;
+}
+#Trial-list>p{
+    display: inline;
+    font-size:14px
+}
+.Top-Card{
+    margin-top:50px;
+}
+.Top-Card>h5{
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.Top-Card>h6 {
+    font-size: 32px;
+}
+.Top-Card>p{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(157, 157, 157);
+    margin-bottom: 20px;
+}
+.Top-Card>a {
+margin-top: 20px;
+margin-bottom: 20px;
+width: 35%;
+font-weight: bold;
+font-size: 20px;
+margin-right: 10px;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+.Top-Card>a i {
+    font-size: 20px;
+    height:50px;
+}
+.borderless-card{
+border: none;
+}
+.Top-Img>img{
+    height: 700px;
+    margin-left: 50px;
+}
+
+
 
 /* 1st-text */
+
 .text1{
     text-align: center;
     margin-left: 30%;
@@ -12,8 +88,9 @@
     font-weight: 600;
 }
 
-.text1 h3{margin-top: 50px;
+.text1 h5{margin-top: 50px;
     font-weight: 700;
+    font-size: 40px;
 
 }
 
@@ -34,7 +111,8 @@
     height: 520px;
     width: auto;
     text-align: left;
-    font-family: sans-serif; font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight: bold;
     
 }
 
@@ -75,7 +153,9 @@
 
 /* Footer Css */
 
-
+.card-title h5{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 a:first-child{margin-right:50px;}
 
